@@ -1,0 +1,88 @@
+body{
+  text-align: center;
+  background:#D7BDE2
+
+}
+.main{
+  display:flex;
+  margin:2%;
+font-style: italic;
+  padding:2%;
+  width:90%;
+}
+.main section{
+  width:90%;
+  background: #F7DC6F    ;
+  border:2px solid #0000FF  ;
+  margin:5%;
+  padding:1%;
+  font-style: italic;
+}
+section{
+  text-align: center;
+  border:5px solid #3498DB  ;
+  font-style: italic;
+    background: #F7DC6F    ;
+
+}
+input,select{
+  width:95%;
+  margin:1%;
+  padding:1%;
+  display:block;
+  font-style: italic;
+
+}
+button{
+  width:20%;
+  background:#5B2C6F  ;
+  text-align: center;
+  margin:1%;
+  padding:1%;
+  font-style: italic;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  body{
+    text-align: center;
+    background:red;
+
+  }
+  .main{
+    display:flex;
+    flex-direction: column;
+    margin:2%;
+  font-style: italic;
+    padding:2%;
+    width:90%;
+  }
+  .main section{
+    width:90%;
+    background: yellow   ;
+    border:2px solid #0000FF  ;
+    margin:5%;
+    padding:1%;
+    font-style: italic;
+  }
+  section{
+    text-align: center;
+    border:5px solid #3498DB  ;
+    font-style: italic;
+      background: orange   ;
+
+  }
+  input,select{
+    width:95%;
+    margin:1%;
+    padding:1%;
+    display:block;
+    font-style: italic;
+
+  }
+  button{
+    width:20%;
+    background:blue  ;
+    text-align: center;
+    margin:1%;
+    padding:1%;
+    font-style: italic;
+  }}
